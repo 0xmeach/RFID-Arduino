@@ -1,8 +1,8 @@
-#include <SPI.h>                  // Include SPI library for communication with RFID module
-#include <MFRC522.h>              // Include MFRC522 library for RFID
-#include <LiquidCrystal_I2C.h>    // Include LiquidCrystal_I2C library for LCD
-#include <Wire.h>                 // Include Wire library for I2C communication
-#include <Servo.h>           // Include the ESP32 Arduino Servo Library instead of the original Arduino Servo Library
+#include <SPI.h>                  // SPI library for communication with RFID module
+#include <MFRC522.h>              // MFRC522 library for RFID
+#include <LiquidCrystal_I2C.h>    // LiquidCrystal_I2C library for LCD
+#include <Wire.h>                 // Wire library for I2C communication
+#include <Servo.h>           // ESP32 Arduino Servo Library instead of the original Arduino Servo Library
 
 Servo myservo;  // create servo object to control a servo
 
